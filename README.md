@@ -7,19 +7,6 @@ The model has been trained and evaluated using the **PlantVillage dataset** — 
 
 ---
 
-## 📊 Project Workflow
-
-```mermaid
-graph TD;
-    A[Dataset Collection<br>(PlantVillage)] --> B[Data Preprocessing<br>Resize, Normalize, Split];
-    B --> C[Model Architecture<br>(CNN Layers)];
-    C --> D[Model Training<br>TensorFlow / Keras];
-    D --> E[Evaluation<br>Accuracy, Loss, Confusion Matrix];
-    E --> F[Prediction<br>New Leaf Image];
-```
-
----
-
 ## 🧠 Model Architecture
 
 The CNN model consists of several convolutional, pooling, and dense layers that progressively learn spatial and texture-based features from leaf images.
